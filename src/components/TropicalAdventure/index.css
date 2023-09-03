@@ -1,0 +1,295 @@
+.topic-adventure-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+  margin-bottom: 160px;
+  width: 180%;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+@media screen and (min-width: 576px) {
+  .topic-adventure-container {
+    width: 100%;
+  }
+}
+
+.zero-icon-1 {
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  background-color: white;
+  border: 15px solid rgb(216, 245, 216);
+  align-self: flex-end;
+  margin-right: 60px;
+}
+
+.both-section-container {
+  display: flex;
+  align-content: center;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.each-list {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  height: 90px;
+  gap: 10px;
+  border-radius: 16px;
+  box-shadow: 15px 15px 65px 5px lightgray;
+  margin-left: 60px;
+  margin-top: 2px;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+.image {
+  height: 40px;
+  width: 40px;
+}
+
+.text-con {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+}
+
+.head-text {
+  color: #000000;
+  font-family: 'roboto';
+  font-size: 12px;
+  line-height: 21.09px;
+  font-weight: 500;
+}
+
+.para-text {
+  color: #000000;
+  font-family: 'roboto';
+  font-size: 8px;
+  line-height: 23px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  animation-name: Body/body1;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.topic-adventure-text-container {
+  display: flex;
+  flex-direction: column;
+  height: 116px;
+  gap: 10px;
+  margin-right: 40px;
+}
+
+.adventure-icon-1 {
+  height: 23px;
+  width: 23px;
+  margin-left: 100px;
+}
+
+.topic-adventure-context-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 150px;
+  margin-top: 30px;
+  margin-right: 30px;
+}
+
+.adventure-head {
+  font-family: 'roboto';
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 48.41px;
+  color: #000000;
+}
+
+.adventure-head-1 {
+  font-family: 'roboto';
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 36.31px;
+  color: #000000;
+}
+
+.adventure-para {
+  font-family: 'roboto';
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 24.2px;
+  color: #000000;
+}
+
+.list-context {
+  font-family: 'roboto';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.adventure-button {
+  font-size: 8px;
+  line-height: 19.36px;
+  font-weight: 400;
+  font-family: 'roboto';
+  width: 100px;
+  height: 26px;
+  border-radius: 15px;
+  gap: 30px;
+  background: #f27a44;
+  color: white;
+  border: transparent;
+}
+
+@media screen and (min-width: 992px) {
+  .topic-adventure-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+    margin-bottom: 160px;
+    width: 100%;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .zero-icon-1 {
+    width: 168px;
+    height: 168px;
+    border-radius: 50%;
+    background-color: white;
+    border: 35px solid rgb(216, 245, 216);
+    align-self: flex-end;
+    margin-right: 60px;
+  }
+
+  .both-section-container {
+    display: flex;
+    align-content: center;
+  }
+
+  .list-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+
+  .each-list {
+    display: flex;
+    align-items: center;
+    width: 360px;
+    height: 130px;
+    gap: 10px;
+    border-radius: 20px;
+    box-shadow: 15px 15px 65px 5px lightgray;
+    margin-left: 180px;
+    margin-top: 2px;
+    padding: 10px;
+    margin-bottom: 50px;
+  }
+
+  .image {
+    height: 80px;
+    width: 80px;
+  }
+
+  .text-con {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+  }
+
+  .head-text {
+    color: #000000;
+    font-family: 'roboto';
+    font-size: 18px;
+    line-height: 21.09px;
+    font-weight: 500;
+  }
+
+  .para-text {
+    color: #000000;
+    font-family: 'roboto';
+    font-size: 16px;
+    line-height: 23px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    animation-name: Body/body1;
+    padding-top: 0px;
+    margin-top: 0px;
+  }
+
+  .topic-adventure-text-container {
+    display: flex;
+    flex-direction: column;
+    height: 116px;
+    gap: 10px;
+    margin-right: 40px;
+  }
+
+  .adventure-icon-1 {
+    height: 53px;
+    width: 53px;
+    margin-left: 200px;
+  }
+
+  .topic-adventure-context-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+    margin-top: 30px;
+    margin-right: 30px;
+  }
+
+  .adventure-head {
+    font-family: 'roboto';
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48.41px;
+    color: #000000;
+  }
+
+  .adventure-head-1 {
+    font-family: 'roboto';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36.31px;
+    color: #000000;
+  }
+
+  .adventure-para {
+    font-family: 'roboto';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24.2px;
+    color: #000000;
+  }
+
+  .list-context {
+    font-family: 'roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+  }
+
+  .adventure-button {
+    font-size: 16px;
+    line-height: 19.36px;
+    font-weight: 400;
+    font-family: 'roboto';
+    width: 200px;
+    height: 51px;
+    border-radius: 30px;
+    gap: 30px;
+    background: #f27a44;
+    color: white;
+    border: transparent;
+  }
+}

@@ -1,0 +1,73 @@
+/* Write your CSS here */
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  max-width: 1274px;
+  width: 70%;
+  margin-left: 60px;
+  margin-right: 60px;
+  height: 80px;
+}
+
+@media screen and (min-width: 992px) {
+  .nav-container {
+    width: 90%;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .nav-container {
+    width: 90%;
+    justify-content: space-between;
+  }
+}
+
+.left-side-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-side-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-text {
+  margin: 15px;
+  color: #262626;
+  font-family: 'roboto';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19.36px;
+}
+
+.nav-offers {
+  margin: 15px;
+  color: #7d7d7d;
+  font-family: 'roboto';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19.36px;
+}
+
+.nav-button {
+  margin: 15px;
+  background-color: #f27a44;
+  height: 40px;
+  width: 100px;
+  border-radius: 30px;
+  padding: 16px, 32px, 16px, 32px;
+  gap: 16px;
+  color: white;
+  font-family: 'roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.36px;
+  border: transparent;
+}

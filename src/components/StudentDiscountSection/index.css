@@ -1,0 +1,239 @@
+.studentDiscountSection-container {
+  display: flex;
+  align-content: center;
+  margin-right: 30px;
+  margin-left: 90px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.studentDiscountSection-first-container {
+  display: flex;
+  flex-direction: column;
+  width: 290px;
+  gap: 30px;
+}
+
+.discount-icon-1 {
+  width: 15px;
+  height: 15px;
+}
+
+.zero-icon-2 {
+  width: 17px;
+  height: 17px;
+  border-radius: 25px;
+  border: 4px solid rgb(255, 239, 233);
+  margin-left: 100px;
+}
+
+.offer-20 {
+  color: #1f2027;
+  font-family: 'roboto';
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.middle-con {
+  display: flex;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.con-text {
+  width: Hug (280px);
+  height: Hug (143px);
+  gap: 10px;
+}
+
+.offer-title-1 {
+  font-family: 'roboto';
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1f2027;
+}
+
+.offer-title-2 {
+  font-family: 'roboto';
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1f2027;
+  padding-top: 0px;
+  margin-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.discount-icon-2 {
+  width: 13px;
+  height: 13px;
+}
+
+.list-context {
+  font-family: 'roboto';
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 30px;
+  color: #000000;
+  padding-top: 0px;
+}
+
+.adventure-button {
+  padding-top: 0px;
+  margin-top: 0px;
+  font-size: 8px;
+  line-height: 19.36px;
+  font-weight: 400;
+  font-family: 'roboto';
+  width: 100px;
+  height: 25px;
+  border-radius: 15px;
+  gap: 15px;
+  background: #f27a44;
+  color: white;
+  border: transparent;
+}
+
+.discount-icon-3 {
+  width: 10px;
+  height: 10px;
+  margin-left: 180px;
+}
+
+.discount-image {
+  width: 227px;
+  height: 317px;
+  margin-left: 90px;
+  border-radius: 6px;
+}
+
+@media screen and (min-width: 992px) {
+  .studentDiscountSection-container {
+    display: flex;
+    align-content: center;
+    margin-right: 30px;
+    margin-left: 160px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  .studentDiscountSection-first-container {
+    display: flex;
+    flex-direction: column;
+    width: 580px;
+    gap: 60px;
+  }
+
+  .discount-icon-1 {
+    width: 30px;
+    height: 30px;
+  }
+
+  .zero-icon-2 {
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    border: 7px solid rgb(255, 239, 233);
+    margin-left: 200px;
+  }
+
+  .offer-20 {
+    color: #1f2027;
+    font-family: 'roboto';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .middle-con {
+    display: flex;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-top: 0px;
+  }
+
+  .con-text {
+    width: Hug (547px);
+    height: Hug (286px);
+    gap: 20px;
+  }
+
+  .offer-title-1 {
+    font-family: 'roboto';
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1f2027;
+  }
+
+  .offer-title-2 {
+    font-family: 'roboto';
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1f2027;
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+
+  .discount-icon-2 {
+    width: 25px;
+    height: 25px;
+  }
+
+  .list-context {
+    font-family: 'roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+    padding-top: 0px;
+  }
+
+  .adventure-button {
+    padding-top: 0px;
+    margin-top: 0px;
+    font-size: 16px;
+    line-height: 19.36px;
+    font-weight: 400;
+    font-family: 'roboto';
+    width: 200px;
+    height: 51px;
+    border-radius: 30px;
+    gap: 30px;
+    background: #f27a44;
+    color: white;
+    border: transparent;
+  }
+
+  .discount-icon-3 {
+    width: 20px;
+    height: 20px;
+    margin-left: 350px;
+  }
+
+  .discount-image {
+    width: 457px;
+    height: 638.5px;
+    margin-left: 90px;
+    border-radius: 12px;
+  }
+}

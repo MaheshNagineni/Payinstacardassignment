@@ -1,0 +1,177 @@
+.EndSection-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 600px;
+  height: 208px;
+  margin-left: 70px;
+}
+
+.EndSection-first-container {
+  width: Fixed (350px);
+  height: Hug (75px);
+  gap: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.EndSection-head {
+  font-family: 'roboto';
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 0em;
+  width: 260px;
+  height: 50px;
+  color: #000000;
+  text-align: center;
+}
+
+.EndSection-para {
+  width: 210px;
+  height: 22px;
+  font-family: 'roboto';
+  font-size: 9px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  color: #000000;
+  text-align: center;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.EndSection-second-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.EndSection-each-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: Hug (270px);
+  height: Hug (10px);
+  gap: 10px;
+  margin-right: 10px;
+}
+
+.EndSection-each-one {
+  height: 19px;
+  font-family: 'roboto';
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-right: 3px;
+  color: #2d2e2e;
+}
+
+.EndSection-each-two {
+  margin-right: 3px;
+  font-family: 'roboto';
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  height: 19px;
+  color: #2d2e2e;
+}
+
+@media screen and (min-width: 992px) {
+  .EndSection-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 1088px;
+    height: 408px;
+    margin-left: 150px;
+  }
+
+  .EndSection-first-container {
+    width: Fixed (688px);
+    height: Hug (172px);
+    gap: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .EndSection-head {
+    font-family: 'roboto';
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+    width: 688px;
+    height: 96px;
+    color: #000000;
+    text-align: center;
+  }
+
+  .EndSection-para {
+    width: 423px;
+    height: 44px;
+    font-family: 'roboto';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: #000000;
+    text-align: center;
+    padding-top: 0px;
+    margin-top: 0px;
+  }
+
+  .EndSection-second-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .EndSection-each-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: Hug (526px);
+    height: Hug (19px);
+    gap: 19px;
+    margin-right: 20px;
+  }
+
+  .EndSection-each-one {
+    height: 19px;
+    font-family: 'roboto';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-right: 5px;
+    color: #2d2e2e;
+  }
+
+  .EndSection-each-two {
+    margin-right: 5px;
+    font-family: 'roboto';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    height: 19px;
+    color: #2d2e2e;
+  }
+}

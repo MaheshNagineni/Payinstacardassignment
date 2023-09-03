@@ -1,0 +1,155 @@
+.Testimonials-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  width: 600px;
+  height: 408px;
+  margin-left: 75px;
+}
+
+.Testimonials-tittle {
+  font-family: 'roboto';
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #000000;
+}
+
+.Testimonials-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: Hug (1, 088px);
+  height: Hug (150px);
+  gap: 50px;
+  margin-top: 15px;
+}
+
+.Testimonials-each-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: Hug (150px);
+  height: Hug (150px);
+  gap: 9px;
+  background-color: #ffffff;
+}
+
+.Testimonials-image {
+  width: Hug (50px);
+  height: Hug (50px);
+  gap: 9px;
+}
+
+.Testimonials-name {
+  font-family: 'roboto';
+  font-size: 9px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #2d2e2e;
+}
+
+.Testimonials-horizontal-line {
+  width: 63px;
+  border: 1px;
+  color: #a0cd9e;
+  border: 1px solid #a0cd9e;
+}
+
+.Testimonials-para {
+  font-family: 'roboto';
+  font-size: 9px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #2d2e2e;
+  width: 150px;
+  height: 44px;
+}
+
+@media screen and (min-width: 992px) {
+  .Testimonials-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 1088px;
+    height: 408px;
+    margin-left: 150px;
+  }
+
+  .Testimonials-tittle {
+    font-family: 'roboto';
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #000000;
+  }
+
+  .Testimonials-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: Hug (1, 088px);
+    height: Hug (290px);
+    gap: 100px;
+    margin-top: 30px;
+  }
+
+  .Testimonials-each-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: Hug (296px);
+    height: Hug (290px);
+    gap: 16px;
+    background-color: #ffffff;
+  }
+
+  .Testimonials-image {
+    width: Hug (100px);
+    height: Hug (100px);
+    gap: 16px;
+  }
+
+  .Testimonials-name {
+    font-family: 'roboto';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #2d2e2e;
+  }
+
+  .Testimonials-horizontal-line {
+    width: 126px;
+    border: 1px;
+    color: #a0cd9e;
+    border: 1px solid #a0cd9e;
+  }
+
+  .Testimonials-para {
+    font-family: 'roboto';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #2d2e2e;
+    width: 296px;
+    height: 88px;
+  }
+}
